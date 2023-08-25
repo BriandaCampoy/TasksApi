@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
+    "dev:mongo": "SET NODE_ENV=mongo&& nodemon app.js --exec babel-node",
     "start": "node index.js",
     "lint": "eslint"
   },
